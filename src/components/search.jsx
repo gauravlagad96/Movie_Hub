@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_KEY = "c45a857c193f6302f2b5061c3b85e743";
 
 const Search = () => {
     const [query, setQuery] = useState(""); // Store user input

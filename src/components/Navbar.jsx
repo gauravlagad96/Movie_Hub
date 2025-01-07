@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Search from "./Search";
+import Search from "./search";
+
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false); // State for toggling the menu
